@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAQUEFASO</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1 ><img src="./TAQUEFASO.png" alt="logo taquefaso" width="30">TAQUEFASO</h1>
+
+            <hr>
+            <img src="./TAQUEFASO 2.png" alt="logo grande" width="300">
+        </header>
+    </section>
+    <hr>
+    <br>
+    <section>
+        <h2>MENU</h2>
+        <h3>CARNE PR KG</h3>
+        <ul>
+            <li>ALPASTOR................$400/KG</li>
+            <li>SUADERO.................$300/KG</li>
+            <li>MIXIOTE.................$280/KG</li>
+            <li>COCHINITA PIBIL.........$460/KG</li>
+            <li>BISTEC..................$190/KG</li>
+        </ul>
+        <h3>TACOS</h3>
+        <ul>
+            <li>ALPASTOR...................$20/cu</li>
+            <li>SUADERO....................$18/cu</li>
+            <li>MIXIOTE....................$23/cu</li>
+            <li>COCHINITA PIBIL............$25/cu</li>
+            <li>BISTEC.....................$15/cu</li>
+            <li>CAMPECHANO.................$25/cu</li>
+        </ul>
+        <h3>COMBOS</h3>
+        <dl>
+            <dt>COMBO ALPASTOR CON QUESO..............$150</dt>
+            <dd>6 tacos al pastor con queso y 2 refrescos grandes</dd>
+            <dt>COMBO UN POCO DE TODO..............$300</dt>
+            <dd>2 tacos de cada carne con un volcan de queso y nopales</dd>
+            <dt>COMBO SUAPERRO..............$200</dt>
+            <dd>8 tacos de suadero con cebolla, cilantro, cebollines, nopales y 3 refrescos grandes</dd>
+            <dt>COMBO MEGA TACO..............$500</dt>
+            <dd>Una parrillada con 200 g de cada carne y en el centro queso derretido</dd>
+        </dl>
+
+    </section>
+
+    <hr>
+    <br>
+    <section>
+        <h2>UBICACION</h2>
+        <br>
+        <h3>SUCURSALES</h3>
+        <br>
+        <table>
+            <tr>
+                <th>NOMBRE DE LA SUCURSAL</th>
+                <th>UBICACION DE LA SUCURSAL</th>
+                <th>HORARIOS</th>
+            </tr>
+            <tr>
+                <td>TAQUEFASO NORTE</td>
+                <td><a href="https://goo.gl/maps/gUaqmXvdUf85shVo9" target="_blank"> Av. Costa Maya 1, 77500 Cancún, Q.R.</a></td>
+                <td>L A S 9:00 AM- 6:00 PM </td>
+            </tr>
+            <tr>
+                <td>TAQUEFASDO SUR</td>
+                <td><a href="https://goo.gl/maps/s6fwkWNaZedSkjS69" target="_blank"> Avenida Nichupté SM 51, Av. Nichupté mz 18, 77536 Cancún, Q.R.</a></td>
+                <td>L A V 12:00 AM- 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>TAQUEFASO OESTE</td>
+                <td><a href="https://goo.gl/maps/DgQ8qY7VMz4X3RS4A" target="_blank"> Orquídeas SMZA259 MZA 101 L01 Centro, 77500 Cancún, Q.R.</a></td>
+                <td>M A D 8:00 AM- 5:00 PM</td>
+            </tr>
+            <tr>
+                <td>TAQUEFASO ESTE</td>
+                <td><a href="https://goo.gl/maps/vfnZVNSFp9JDH5MB9" target="_blank"> Av Tulum Mz 24 lt 10, 77500 Cancún, Q.R.</a></td>
+                <td>L A D 11:00 AM- 7:30 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+    <br>
+
+    <section>
+        <h2>PEDIDOS</h2>
+        <br>
+        <h3>SELECCIONA SUCURSAL</h3>
+        
+        <form action="">
+            <select name="sucursales" id="sucursales">
+                <option value="norte">TAQUEFASO NORTE</option>
+                <option value="sur">TAQUEFASO SUR</option>
+                <option value="oeste">TAQUEFASO OESTE</option>
+                <option value="este">TAQUEFASO ESTE</option>
+            </select>
+        </form>
+        <br>
+        <h3>QUE TACOS VA A PEDIR?</h3>
+        <input type="checkbox" id="alpastor por kg" name="alpastor por kg" value="alpastor por kg">
+        <label for="alpator por kg">ALPASTOR POR KG</label>
+        <input type="number" id="alpastorkgnumber" name="alpastorkgnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="suaderokg" name="suaderokg" value="suaderokg">
+        <label for="suaderokg">SUADERO POR KG</label>
+        <input type="number" id="suaderokgnumber" name="suaderokgnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="mixiotekg" name="mixiotekg" value="mixiotekg">
+        <label for="mixiotekg">MIXIOTE POR KG</label>
+        <input type="number" id="mixiotekgnumber" name="mixiotekgnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="cochinitakg" name="cochinitakg" value="cochinitakg">
+        <label for="cochinitakg">COCHINITA PIBIL POR KG</label>
+        <input type="number" id="cochinitakgnumber" name="cochinitakgnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="bisteckg" name="bisteckg" value="bisteckg">
+        <label for="bisteckg">BISTEC POR KG</label>
+        <input type="number" id="bisteckgnumber" name="bisteckgnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="alpastor" name="alpastor" value="alpastor">
+        <label for="alpastor">TACO DE ALPASTOR</label>
+        <input type="number" id="alpastornumber" name="alpastornumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="suadero" name="suadero" value="suadero">
+        <label for="suadero">TACO DE SUADER</label>
+        <input type="number" id="suaderonumber" name="suaderonumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="mixiote" name="mixiote" value="mixiote">
+        <label for="mixiote">TACO DE MIXIOTE</label>
+        <input type="number" id="mixiotenumber" name="mixiotenumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="cochinita" name="cochinita" value="cochinita">
+        <label for="cochinita">TACO DE COCHINITA PIBIL</label>
+        <input type="number" id="cochinitanumber" name="cochinitanumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="bistec" name="bistec" value="bistec">
+        <label for="bistec">TACO DE BISTEC</label>
+        <input type="number" id="bistecnumber" name="bistecnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="campechano" name="campechano" value="campechano">
+        <label for="campechano">TACO CAMPECHANO</label>
+        <input type="number" id="campechanonumber" name="campechanonumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="comboa" name="comboa" value="comboa">
+        <label for="comboa">COMBO AL PASTOR CON QUESO</label>
+        <input type="number" id="comboanumber" name="comboanumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="combou" name="combou" value="combou">
+        <label for="combou">COMBO UN POCODE TODO</label>
+        <input type="number" id="combounumber" name="combounumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="combos" name="combos" value="combos">
+        <label for="combos">COMBO DE SUAPERRO</label>
+        <input type="number" id="combosnumber" name="combosnumber" placeholder="¿CUANTOS?">
+        <br>
+        <br>
+        <input type="checkbox" id="combom" name="combom" value="combom">
+        <label for="combom">COMBO MEGA TACO</label>
+        <input type="number" id="combomnumber" name="combomnumber" placeholder="¿CUANTOS?">
+        <br>
+
+    </section>
+
+    <hr>
+    <br>
+
+    <section>
+        <label for="nombre">NOMBRE: </label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="¿COMO TE LLAMAS?"><br>
+        <br>
+        <label for="numero">NUMERO: </label><br>
+        <input type="text" id="numero" name="numero" placeholder="¿CUAL ES TU NUMERO TELEFONICO?"><br>
+        <br>
+        <label for="direccion">DIRECCION: </label><br>
+        <input type="text" id="direccion" name="direccion" placeholder="¿CUAL ES TU DIRECCION?"><br>
+        <button type="submit">ENVIAR PEDIDO</button>
+    </section>
+
+</body>
+</html>
